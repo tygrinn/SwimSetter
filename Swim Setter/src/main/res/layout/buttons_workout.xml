@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+style="style=?android:attr/buttonBarStyle"
+android:id="@+id/workout_buttons">
+
+<Button
+    style="?android:attr/buttonBarButtonStyle"
+    android:layout_width="0dp"
+    android:layout_weight=".5"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:text="@string/add_section"
+    android:onClick="addNewSection"/>
+
+<Button
+    android:layout_width="0dp"
+    android:layout_weight=".5"
+    android:layout_height="wrap_content"
+    style="?android:attr/buttonBarButtonStyle"
+    android:gravity="center"
+    android:onClick="showPosLoop"
+    android:text="@string/create_new_loop"/>
+
+</LinearLayout>

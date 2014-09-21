@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@null"
+    tools:context="com.tygrdevelopment.swimsetter.swimsetter.swimsetter.WorkoutLoader" >
+
+    <item android:id="@+id/new_slice"
+        android:title="@string/new_slice"/>
+    <item android:id="@+id/new_section"
+        android:title="@string/new_section"/>
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

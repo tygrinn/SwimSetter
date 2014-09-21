@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:contentDescription="@string/bullet_point"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/swimmer"/>
+
+
+    <LinearLayout
+        android:id="@+id/set_button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="start"
+            android:paddingLeft="50dp"
+            android:paddingStart="50dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp"
+            android:layout_weight=".5"
+            android:textSize="25sp"
+            android:id="@+id/set_name"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/info"
+            android:id="@+id/set_info"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:contentDescription="@string/delete_set_button"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:src="@drawable/x"
+        android:onClick="deleteSet"
+        android:scaleType="fitCenter"/>
+
+</TableRow>
+

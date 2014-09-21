@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#EDFFFE</color>
+    <color name="info">#7A7A7A</color>
+    <color name="button">#FFEDEE</color>
+    <color name="button_pressed">#FFDBDD</color>
+    <color name="set_pressed">#D1E3E2</color>
+    <color name="slice_pressed">#E6E6E6</color>
+    <color name="hidden">#929292</color>
+    <color name="add">#C4FFCC</color>
+    <color name="add_pressed">#80FF91</color>
+    <color name="edit">#CCC4FF</color>
+    <color name="edit_pressed">#9180FF</color>
+    <color name="delete">#FFCCC4</color>
+    <color name="delete_pressed">#FF9180</color>
+</resources>

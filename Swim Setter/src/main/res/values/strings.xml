@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swim Setter</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_workout_loader">WorkoutLoader</string>
+    <string name="new_slice">New slice</string>
+    <string name="new_section">New section</string>
+    <string name="create_new_set">Create new set</string>
+    <string name="enter_set_name">Enter set name</string>
+    <string name="create_blank">Create blank set</string>
+    <string name="create_default">Create default set</string>
+    <string name="cancel">Cancel</string>
+    <string name="file_name_error">Set name error. Please choose another name</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="length">Length:</string>
+    <string name="pace">Pace:</string>
+    <string name="details">Details (optional)</string>
+    <string name="create">Create</string>
+    <string name="type">Type:</string>
+    <string name="add_section">Add a new section</string>
+    <string name="new_section_dialog">Enter new section name</string>
+    <string name="name">Name</string>
+    <string name="update">Update</string>
+    <string name="number_of_reps">Number of reps:</string>
+    <string name="not_enough_slices">Not enough slices selected to make a loop</string>
+    <string name="create_new_loop">Create new loop</string>
+    <string name="my_sets">My sets</string>
+    <string name="dialog_delete_set">Delete set</string>
+    <string name="delete_set_message">Are you sure you want to delete</string>
+    <string name="create_loop">Create loop</string>
+    <string name="select_slices">Please select two slices to make a loop</string>
+    <string name="choose_reps">Choose # of reps</string>
+    <string name="choose_length">Choose length of each rep</string>
+    <string name="choose_type">Choose type of stroke</string>
+    <string name="choose_pace">Choose pace for each rep</string>
+    <string name="X">X</string>
+    <string name="yards">yards</string>
+    <string name="loop_bracket">loop bracket</string>
+    <string name="bullet_point">bullet point</string>
+    <string name="delete_set_button">delete set button</string>
+
+    <string-array name="types">
+        <item>freestyle</item>
+        <item>backstroke</item>
+        <item>breaststroke</item>
+        <item>butterfly</item>
+        <item>individual medley</item>
+        <item>freestyle kick</item>
+        <item>backstroke kick</item>
+        <item>breaststroke kick</item>
+        <item>fly kick</item>
+        <item>drill</item>
+        <item>choice</item>
+        <item>choice kick</item>
+    </string-array>
+
+    <string name="title_activity_overview2">Overview2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
