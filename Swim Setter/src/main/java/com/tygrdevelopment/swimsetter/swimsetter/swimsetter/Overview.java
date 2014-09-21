@@ -36,7 +36,7 @@ public class Overview extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        Parse.initialize(this, "TFgAedkayADvYBaaxKQCvz75pGupYsn2vFGQZgUm", "8ds6DMxWXjwy14eCWty1OvRjwqfhfT7epbS6CvcB");
+        Parse.initialize(this, getString(R.string.application_id), getString(R.string.client_key));
         Parse.enableLocalDatastore(this);
 
         super.onCreate(savedInstanceState);
